@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+
+.header{
+ background-color: lightgrey;
+ height: 5rem;
+ width: 100vw;
+ 
+ 
+}
+.nav ul{
+    display: flex; 
+    align-content: stretch;
+    justify-content: space-evenly;
+    padding: 0;
+    
+}
+.nav li{
+    list-style: none;
+    margin-top: 2rem;
+}
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+     
+}
+
+a:hover{
+    color: rgb(97, 77, 165);
+    transform: 2s ease-in-out;
+}
+
+/* body */
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+main{
+    text-align: center;
+    margin:1rem;
+}
+
+.main-container_projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-container_projectContainer div{
+    
+    width: 100%;
+    height: 50vh;
+    margin:.5rem;
+    padding: 0;
+    
+}
+.project:nth-child(odd){
+    background-color: lightgreen;
+    /* position: fixed;
+    top: 50%;
+    left: 50%; */
+}
+.project:nth-child(even){
+    background-color: lightpink;
+    /* position: fixed;
+    top: 50%;
+    left: 50%; */
+}
+@media screen and (min-width: 768px){
+    .main-container_projectContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-container_projectContainer div{
+    
+        width: 50%;
+        height: 50%;
+        margin:.5rem;
+        
+    }
+}
+.project a{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: none;
+    color: lightslategray;
+    
+    
+}
+
+/* footer */
+footer{
+    background-color: black ;
+    height: 8rem;
+    width: 100vw;
+}
+footer ul{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    padding: 0;
+
+}
+footer ul li{
+    list-style: none;
+    margin-top: 3rem;
+}
+footer ul li a{
+    color: white;
+}
+
+
+
