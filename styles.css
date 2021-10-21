@@ -80,12 +80,22 @@ main{
     }
     .main-container_projectContainer div{
     
-        width: 50%;
-        height: 50%;
+        width: 25vh;
+        height: 50vh;
         margin:.5rem;
         
     }
 }
+@media screen and (min-width: 980px){
+    .main-container_projectContainer div{
+    
+        width: 50vh;
+        height: 50vh;
+        margin:.5rem;
+        
+    }
+}
+
 .project a{
     text-align: center;
     font-size: 3rem;
@@ -95,6 +105,20 @@ main{
     
 }
 
+/* about */
+.about{
+    margin:5rem;
+}
+/* contact */
+.success-message{
+    color: green;
+}
+
+.error-message,
+.form-field.error label,
+.form-field.error span {
+    color: red;
+}
 /* footer */
 footer{
     background-color: black ;
